@@ -77,7 +77,7 @@
             object-fit: cover;
             border-radius: 50%;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border: 2px solid #fff; /* Optional: adds a border to make it look cleaner */
+            border: 2px solid #fff; 
         }
         .time {
             display: flex;
@@ -221,8 +221,7 @@
         <p class='say-thank'>Thank you for your love!</p>
     </div>
     <script type='text/javascript'>
-        //<![CDATA[
-        const yourDate = new Date("2024-10-19T22:31:00"),
+        const yourDate = new Date("2024-10-10T00:00:00"),
               music = ['ido', 'noinaycoanh', 'nguoiamphu'];
 
         document.addEventListener('DOMContentLoaded', function() {
@@ -243,9 +242,7 @@
             const audio = document.querySelector("audio");
             audio.src = `https://cdn.leanhduc.pro.vn/music/${music[Math.floor(Math.random() * music.length)]}.mp3`;
         });
-        //]]>
     </script>
-    <!-- Loading -->
     <div id='loader'>
         <div class='spinner'></div>
     </div>
